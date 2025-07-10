@@ -33,5 +33,8 @@ jobs:
       - name: list artifacts
         run: ls artifacts
 
+      - name: list hello-artifacts
+        run: ls artifacts/hello-artifact
+
       - name: Display Hello Text
         run: cat ./artifacts/hello.txt
