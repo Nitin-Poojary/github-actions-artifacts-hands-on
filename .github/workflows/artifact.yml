@@ -27,5 +27,11 @@ jobs:
         with:
           path: ./artifacts
 
+      - name: list files
+        run: ls
+
+      - name: list artifacts
+        run: ls | grep -i arti
+
       - name: Display Hello Text
         run: cat ./artifacts/hello.txt
